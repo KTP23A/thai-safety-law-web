@@ -9,7 +9,7 @@ title: แผนที่กฎหมาย (Interactive Map)
 ---
 
 <div style="text-align:center; margin: 2rem 0;">
-  <a href="/law-map.html" target="_blank" style="display:inline-block; background:#1e40af; color:#fff; padding:14px 32px; border-radius:10px; font-size:1.1rem; font-weight:700; text-decoration:none; box-shadow:0 4px 20px #1e40af66;">
+  <a href="/static/law-map.html" target="_blank" style="display:inline-block; background:#1e40af; color:#fff; padding:14px 32px; border-radius:10px; font-size:1.1rem; font-weight:700; text-decoration:none; box-shadow:0 4px 20px #1e40af66;">
     🗺️ เปิดแผนที่แบบเต็มหน้าจอ
   </a>
   <p style="color:#64748b; margin-top:10px; font-size:0.9rem;">เปิดในแท็บใหม่ — รองรับมือถือและคอมพิวเตอร์</p>
