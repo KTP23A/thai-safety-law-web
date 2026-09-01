@@ -1,0 +1,1456 @@
+[
+  {
+    "id": "3490c4e7a78e8054ac04c94091851b7c",
+    "url": "https://app.notion.com/3490c4e7a78e8054ac04c94091851b7c",
+    "name": "P1. 40 hours training",
+    "topic": "7. Other",
+    "subTopic": "Training",
+    "status": "🔵 On Track",
+    "target": "40 hr. require (32/40)\n  • Train the trainer (16 hr)\n  • Sustained (3 hr)\n  • TQM (6 hr)\n  • Kaizen training (6 hr)\n  • E8 (1 hr)",
+    "detail": "Training",
+    "reviewGoal": null,
+    "businessUnits": [
+      "BSAPIC"
+    ],
+    "dateStart": "2026-01-01",
+    "dateEnd": "2026-12-31",
+    "quarters": [],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": "40 hr. require (33/40)\n- Train the trainer (16 hr)\n- Sustained (3 hr)\n- TQM (6 hr)\n- Kaizen training (6 hr)\n- E8 (1 hr)\n-Deming plan (1 hr)"
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3490c4e7a78e80628a77ddcbf37ff7f2",
+    "url": "https://app.notion.com/3490c4e7a78e80628a77ddcbf37ff7f2",
+    "name": "O1. Jiamoei audit",
+    "topic": "7. Other",
+    "subTopic": "Outsource audit",
+    "status": "🔵 On Track",
+    "target": "Close high risk item\n***** TBC",
+    "detail": "Outsource audit — Jiamoei\nStaff project",
+    "reviewGoal": null,
+    "businessUnits": [
+      "BSAPIC"
+    ],
+    "dateStart": null,
+    "dateEnd": null,
+    "quarters": [],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": null
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3490c4e7a78e8109bfd8c6a38f65113d",
+    "url": "https://app.notion.com/3490c4e7a78e8109bfd8c6a38f65113d",
+    "name": "G1. Incident reporting standard (Rev.01)",
+    "topic": "3. Mgmt System",
+    "subTopic": "Standard",
+    "status": "🔵 On Track",
+    "target": "wait GMP revised",
+    "detail": "Incident reporting standard rev.01/2026\nMobile Equipment standard (2H/26)",
+    "reviewGoal": null,
+    "businessUnits": [
+      "all MFG+ non-mfg"
+    ],
+    "dateStart": "2026-08-31",
+    "dateEnd": "2026-10-14",
+    "quarters": [
+      {
+        "quarter": "Q1",
+        "task": "Wait for EAST criteria",
+        "status": null
+      },
+      {
+        "quarter": "Q2",
+        "task": "Wait for Global criteria, finalize BSAPIC rev. 01 (E/ Jun)",
+        "status": null
+      },
+      {
+        "quarter": "Q3",
+        "task": "ME std.: Review and revise (E/ Sep)",
+        "status": null
+      }
+    ],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": "• Draft std. (4 Sep)\n  • Review with team (10 Sep)\n  • GC review (14 - 30 Sep)\n  • adjustment (1W of Oct)\n  • CQO review (2W of Oct)\n  • Deploy (E/ Oct)"
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3490c4e7a78e811aa7a4d7d293815e96",
+    "url": "https://app.notion.com/3490c4e7a78e811aa7a4d7d293815e96",
+    "name": "M1. TF#4 Non-MFG Activities",
+    "topic": "6. Global",
+    "subTopic": "TF meeting",
+    "status": "🔵 On Track",
+    "target": "monthly meeting (DP std.)",
+    "detail": "TF#4 Non-MFG activities — regular meetings & reporting",
+    "reviewGoal": null,
+    "businessUnits": [
+      "All non-mfg"
+    ],
+    "dateStart": null,
+    "dateEnd": null,
+    "quarters": [],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": "Aug meeting by 26 Aug"
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3490c4e7a78e8120b615f1ee28df6804",
+    "url": "https://app.notion.com/3490c4e7a78e8120b615f1ee28df6804",
+    "name": "A1. Request RA WH data",
+    "topic": "1. Safety Enhancement",
+    "subTopic": "RA",
+    "status": "🟢 Done",
+    "target": "• Tracking update RA of WH E/ Sep",
+    "detail": "RA WH list (Serious risk, 5 Major risks)\nRA onsite confirmation (ref. SMA WH of 2026 plan)\nSerious risk mitigation measure of 1st priority risk",
+    "reviewGoal": null,
+    "businessUnits": [
+      "Warehouse"
+    ],
+    "dateStart": "2026-02-20",
+    "dateEnd": "2026-03-13",
+    "quarters": [
+      {
+        "quarter": "Q1",
+        "task": "Launch RA format of high risk to all WH-GC\nDeadline: 30 Apr 2026",
+        "status": null
+      },
+      {
+        "quarter": "Q2",
+        "task": "Complete RA of each WH-GC\nReport number of risks (Serious risk, 5 Major risks) (E/Jun)",
+        "status": "🟢 On Track"
+      }
+    ],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": null
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3490c4e7a78e8134ac59f4a175671bfa",
+    "url": "https://app.notion.com/3490c4e7a78e8134ac59f4a175671bfa",
+    "name": "E1.  Flammable Chemical (Clean Marking)",
+    "topic": "2. DP Enhancement",
+    "subTopic": "DP Recurrence Prevention",
+    "status": "🟢 Done",
+    "target": "Eliminate/ Substritue “Gasoline using” from WH",
+    "detail": "Recurrence prevention for flammable chemical usage in operation\nScope: Clean marking operation at all WH sites\n\nQ2 Actions:\n- Survey flammable chemical usage at each WH-GC\n- Identify risks of clean marking operation\n- Set countermeasures per site\n\nTarget: Complete survey + countermeasure setting by End of Q2 (Jun 30, 2026)",
+    "reviewGoal": null,
+    "businessUnits": [
+      "Warehouse"
+    ],
+    "dateStart": "2026-06-30",
+    "dateEnd": "2026-07-16",
+    "quarters": [
+      {
+        "quarter": "Q2",
+        "task": "Fire at WH 2 cases, Study scope of flammable chemical usage in clean marking operation. \nIdentify WH-GC list for survey Complete survey of each WH-GC on flammable chemical / clean marking operation\nSet countermeasure per site (E/Jun)",
+        "status": "🟢 On Track"
+      }
+    ],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": null
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3490c4e7a78e813abb94c91f07e29b7d",
+    "url": "https://app.notion.com/3490c4e7a78e813abb94c91f07e29b7d",
+    "name": "D1. Trail Fire RA with Retread, warehouse and Retail",
+    "topic": "2. DP Enhancement",
+    "subTopic": "Fire RA",
+    "status": null,
+    "target": "Sep: Onsite trail Fire RA: Retread\nOct: WH, Retail\nNov: final the guideline of Fire RA\nDec: Launch to Non-MFG",
+    "detail": "Develop method of Fire & BC risk\nTrain and qualify non-MFG PIC\nGC set plan to conduct Fire RA\nVisualize Fire RA result of each GC (Non-MFG)",
+    "reviewGoal": null,
+    "businessUnits": [
+      "Warehouse",
+      "Retail",
+      "Retread"
+    ],
+    "dateStart": "2026-11-30",
+    "dateEnd": "2026-12-16",
+    "quarters": [
+      {
+        "quarter": "Q1",
+        "task": "RA method of Non-MFG",
+        "status": null
+      },
+      {
+        "quarter": "Q2",
+        "task": "Final methodology (E/ Jun)",
+        "status": null
+      },
+      {
+        "quarter": "Q3",
+        "task": "GC conduct Fire RA and report Fire RA level to BSAPIC (E/ Sep)",
+        "status": null
+      }
+    ],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": null
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3490c4e7a78e81459c0cedec252f67d1",
+    "url": "https://app.notion.com/3490c4e7a78e81459c0cedec252f67d1",
+    "name": "H4.1 BSACT Q3 (2 sites)",
+    "topic": "3. Mgmt System",
+    "subTopic": "SMA Retail",
+    "status": "🔵 On Track",
+    "target": "BSACT \n  • F up 2025 SMA IIP + Horizontal deployment (all site) \n  • 2026 Validation 4 sites (Sep: 2, Nov: 2)\n  • [Add] Monthly meeting with BSACT+ NSE+ CQO",
+    "detail": "Y26 validate: BSACT×4, BSANZ\nTraining Assessor & Assessor status update\nQuarterly update progress of improvement & self result",
+    "reviewGoal": null,
+    "businessUnits": [
+      "Retail"
+    ],
+    "dateStart": "2026-09-01",
+    "dateEnd": "2026-09-30",
+    "quarters": [
+      {
+        "quarter": "Q1",
+        "task": "shift to Q4, due to internal compliance issue and recovery by self assessment of all site with improve by E/Q3",
+        "status": null
+      },
+      {
+        "quarter": "Q4",
+        "task": "SMA validate 4 sites (TBC)",
+        "status": null
+      }
+    ],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": "BSACT monthly meeting (28 Aug)"
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": "• Review and Purpose 4 sites validation assessments\n  • official letters"
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3490c4e7a78e81559773fb0369c1d568",
+    "url": "https://app.notion.com/3490c4e7a78e81559773fb0369c1d568",
+    "name": "G3. DP Retail Standard (TF#4)",
+    "topic": "3. Mgmt System",
+    "subTopic": "Standard",
+    "status": "🔵 On Track",
+    "target": "Ref. TF#4 will complete Retail DP std. by Q4/26",
+    "detail": "Design DP General standard and BU specific item self-assessment (WH, Retread & Retail)\nValidate self-assessment result from onsite check as SMA plan",
+    "reviewGoal": null,
+    "businessUnits": [
+      "Retail"
+    ],
+    "dateStart": "2026-01-01",
+    "dateEnd": "2026-12-31",
+    "quarters": [],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": null
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3490c4e7a78e81609855f30224f57ddd",
+    "url": "https://app.notion.com/3490c4e7a78e81609855f30224f57ddd",
+    "name": "K1. 4KPIs Dashboard & Analytics Visualization",
+    "topic": "5. Analytics",
+    "subTopic": "KPI visualization",
+    "status": "🔵 On Track",
+    "target": "periodical update",
+    "detail": "4KPIs visualizations & all dashboard control:\n- Fair result (Injury, Fire accident), SIR, LTIR, TIR, OFIR\n- RA visualization: MC, task 4 criteria + mitigation\n- SMA: benchmark score, audit plan vs actual\n- G-SMS: GC status of each std.\nMonitoring accuracy numbers of each dashboards",
+    "reviewGoal": null,
+    "businessUnits": [
+      "BSAPIC"
+    ],
+    "dateStart": null,
+    "dateEnd": null,
+    "quarters": [
+      {
+        "quarter": "Q2",
+        "task": "Power BI for Non-MFG",
+        "status": "🟢 On Track"
+      }
+    ],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": null
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3490c4e7a78e817a8e3edbb53026000d",
+    "url": "https://app.notion.com/3490c4e7a78e817a8e3edbb53026000d",
+    "name": "H1. BTMT",
+    "topic": "3. Mgmt System",
+    "subTopic": "SMA WH",
+    "status": "🟢 Done",
+    "target": "BTMV SMA on 7th Aug\n-summary and review > 14th Aug\n-official wrap up > 26th Aug (TBC)",
+    "detail": "Y26 validate: BTMT, BSANZ, BTMV, BSSC\nTraining Assessor & Assessor status update\nQuarterly update progress of improvement & self result",
+    "reviewGoal": null,
+    "businessUnits": [
+      "Warehouse"
+    ],
+    "dateStart": "2026-05-11",
+    "dateEnd": null,
+    "quarters": [
+      {
+        "quarter": "Q2",
+        "task": "May: BTMT-WH_11 May\nJun: BSANZ 2 sites (Lytton & Truganina)_29 JJun - 4 Jul",
+        "status": "🟢 On Track"
+      },
+      {
+        "quarter": "Q3",
+        "task": "Aug: BTMV-WH (TBC)",
+        "status": null
+      },
+      {
+        "quarter": "Q4",
+        "task": "NOV: BSSC 4 warehouses (TBC)",
+        "status": null
+      }
+    ],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": null
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3490c4e7a78e818c83f2dc0cbe9a86f8",
+    "url": "https://app.notion.com/3490c4e7a78e818c83f2dc0cbe9a86f8",
+    "name": "F1. DP day of non-MFG.",
+    "topic": "2. DP Enhancement",
+    "subTopic": "DP day",
+    "status": "🔵 On Track",
+    "target": "DP day",
+    "detail": "KY (Kiken Yochi)\nDP Awareness training\nDP Day activities",
+    "reviewGoal": null,
+    "businessUnits": [
+      "All non-mfg"
+    ],
+    "dateStart": "2026-08-01",
+    "dateEnd": "2026-10-23",
+    "quarters": [
+      {
+        "quarter": "Q3",
+        "task": "DP requirement and activities, onsite joint DP day at…..(TBC)",
+        "status": null
+      }
+    ],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": "Update DP day attachments"
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": null
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3490c4e7a78e819990c0c38b892625f6",
+    "url": "https://app.notion.com/3490c4e7a78e819990c0c38b892625f6",
+    "name": "B1. Reach Trucks",
+    "topic": "1. Safety Enhancement",
+    "subTopic": "Safety Recurrence Prevention",
+    "status": "🟠 Delayed",
+    "target": "Reach truck (D, BSAM) update improvement \n1. Reach truck (E/Apr) > done\n2. Other ME (E/Jun)  remaining\nBTMT: 120 ME installation guards \nBSWX: 59 racks > revise direction to geofence",
+    "detail": "Developing recurrence prevention measure from validation assessment & incidents\nF-up GC to check site situation and set plan to improve\nValidate site actual result",
+    "reviewGoal": null,
+    "businessUnits": [
+      "all MFG+ non-mfg"
+    ],
+    "dateStart": "2026-03-10",
+    "dateEnd": "2026-12-31",
+    "quarters": [
+      {
+        "quarter": "Q1",
+        "task": "Reach truck (D, BSAM) survey and confirm improvement plan",
+        "status": null
+      },
+      {
+        "quarter": "Q2",
+        "task": "Reach truck (D, BSAM) update improvement 1. Reach truck (E/Apr) 2. Other ME (E/May)",
+        "status": "🟢 On Track"
+      }
+    ],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": "update the progress of other ME/ additional review scope\n  • BTMT: E/ Sep\n  • BSWX: Geofence study > Due E/ Dec"
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": "update progress of BTMT and BSWX (1 Sep)"
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3490c4e7a78e81b4bb0bebd243c848e3",
+    "url": "https://app.notion.com/3490c4e7a78e81b4bb0bebd243c848e3",
+    "name": "N1. Q1 report",
+    "topic": "6. Global",
+    "subTopic": "Quarterly report",
+    "status": "🟢 Done",
+    "target": null,
+    "detail": "Quarterly report (Q1, Q2, Q3, Q4)",
+    "reviewGoal": null,
+    "businessUnits": [
+      "All non-mfg"
+    ],
+    "dateStart": "2026-04-15",
+    "dateEnd": null,
+    "quarters": [],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": null
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3490c4e7a78e81bd926ff5152f185ed5",
+    "url": "https://app.notion.com/3490c4e7a78e81bd926ff5152f185ed5",
+    "name": "H6. BBRC",
+    "topic": "3. Mgmt System",
+    "subTopic": "SMA Retread",
+    "status": "🔵 On Track",
+    "target": "trained SMA assessor (Done)\nValidate on Sep 26",
+    "detail": "Y26 validate: BSANZ, BBRC\nTraining Assessor & Assessor status update\nQuarterly update progress of improvement & self result",
+    "reviewGoal": null,
+    "businessUnits": [
+      "Retread"
+    ],
+    "dateStart": "2026-10-26",
+    "dateEnd": null,
+    "quarters": [
+      {
+        "quarter": "Q1",
+        "task": "Trained Assessor of BBRC 2 persons",
+        "status": null
+      },
+      {
+        "quarter": "Q3",
+        "task": "Sep: BBRC validate SMA (TBC)",
+        "status": null
+      }
+    ],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": "*Shift to OCT , due to DP day preparation"
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": "-Official letter"
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3490c4e7a78e81ce9face3f0ba0b8f61",
+    "url": "https://app.notion.com/3490c4e7a78e81ce9face3f0ba0b8f61",
+    "name": "L1. Background and concept",
+    "topic": "5. Analytics",
+    "subTopic": "Audit system",
+    "status": "🟢 Done",
+    "target": "Complete concept/ fresebility by E/ Dec\n1. Adopt vibe coding to production \n2. Config vendor system from vibe coding concept",
+    "detail": "Scope identification\nFeasibility cost & requirement study\nDevelop tool & system\nEvaluate effectiveness of system",
+    "reviewGoal": null,
+    "businessUnits": [
+      "BSAPIC"
+    ],
+    "dateStart": null,
+    "dateEnd": null,
+    "quarters": [
+      {
+        "quarter": "Q2",
+        "task": "Final solution of method and system",
+        "status": "🟢 On Track"
+      },
+      {
+        "quarter": "Q3",
+        "task": "Start project and test run/ pilot run (E/ Sep)",
+        "status": null
+      },
+      {
+        "quarter": "Q4",
+        "task": "Validate system before official launch (E/ Nov)",
+        "status": null
+      }
+    ],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": null
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3720c4e7a78e8032b04de2ce3560877d",
+    "url": "https://app.notion.com/3720c4e7a78e8032b04de2ce3560877d",
+    "name": "E3. Retread DP risks BSANZs",
+    "topic": "2. DP Enhancement",
+    "subTopic": "DP Recurrence Prevention",
+    "status": "🔵 On Track",
+    "target": "F-up DP risks of Retread to 100% closure",
+    "detail": "Recurrence prevention for flammable chemical usage in operation\nScope: Clean marking operation at all WH sites\n\nQ2 Actions:\n- Survey flammable chemical usage at each WH-GC\n- Identify risks of clean marking operation\n- Set countermeasures per site\n\nTarget: Complete survey + countermeasure setting by End of Q2 (Jun 30, 2026)",
+    "reviewGoal": null,
+    "businessUnits": [
+      "Retread"
+    ],
+    "dateStart": null,
+    "dateEnd": null,
+    "quarters": [
+      {
+        "quarter": "Q2",
+        "task": "Fire at WH 2 cases, Study scope of flammable chemical usage in clean marking operation. \nIdentify WH-GC list for survey Complete survey of each WH-GC on flammable chemical / clean marking operation\nSet countermeasure per site (E/Jun)",
+        "status": "🟢 On Track"
+      }
+    ],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": "Follow up improvement of 7 BSANZ retreads"
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": null
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "37a0c4e7a78e803e95f4e94574bd11b5",
+    "url": "https://app.notion.com/37a0c4e7a78e803e95f4e94574bd11b5",
+    "name": "I1. New Warehouse requirement",
+    "topic": "3. Mgmt System",
+    "subTopic": "New Warehouse requirement (#TF3)",
+    "status": null,
+    "target": "confirm S& DP requirements for new/ existing warehouse (ref. #TF3; qualification check list concept)",
+    "detail": null,
+    "reviewGoal": null,
+    "businessUnits": [
+      "Warehouse"
+    ],
+    "dateStart": "2026-11-30",
+    "dateEnd": null,
+    "quarters": [],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": "Draft items \n- Truck\n- FL\n- PPE\n- AI detection (Behavior, PPE)\nDP\n- Fire detection equipment\n- Fire response equipment (manual & auto)"
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": null
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "37a0c4e7a78e80bdb986efc2e175fec3",
+    "url": "https://app.notion.com/37a0c4e7a78e80bdb986efc2e175fec3",
+    "name": "C1. Study background of TBSCn violations",
+    "topic": "1. Safety Enhancement",
+    "subTopic": "AI forklift behavior detection",
+    "status": "🔵 On Track",
+    "target": "1. AI detect behaviors of FL\n  2. AI detect PPE \n  3. confirm frasebility and cost (E/ Dec)",
+    "detail": null,
+    "reviewGoal": null,
+    "businessUnits": [
+      "Warehouse"
+    ],
+    "dateStart": "2026-06-01",
+    "dateEnd": "2026-07-31",
+    "quarters": [],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": "- Complete detection scope plan"
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3b80c4e7a78e807d95accb0ff2c99c73",
+    "url": "https://app.notion.com/3b80c4e7a78e807d95accb0ff2c99c73",
+    "name": "J1. Non-MFG QM concept (SMA + Compliance) Safety + Envi",
+    "topic": "3. Mgmt System",
+    "subTopic": "Non-MFG Compliance audit (SHE)",
+    "status": null,
+    "target": "complete to set plan for compliance check of non-mfg (Safety & Envi)",
+    "detail": null,
+    "reviewGoal": null,
+    "businessUnits": [
+      "BSAPIC"
+    ],
+    "dateStart": "2026-09-30",
+    "dateEnd": null,
+    "quarters": [],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": "- Draft concept of non-mfg. compliance check"
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": null
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3cd0c4e7a78e800db546f788de6e164e",
+    "url": "https://app.notion.com/3cd0c4e7a78e800db546f788de6e164e",
+    "name": "H4.2 BSACT Q4 (2 sites)",
+    "topic": "3. Mgmt System",
+    "subTopic": "SMA Retail",
+    "status": null,
+    "target": null,
+    "detail": null,
+    "reviewGoal": null,
+    "businessUnits": [],
+    "dateStart": "2026-08-31",
+    "dateEnd": "2026-12-31",
+    "quarters": [],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": null
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3cd0c4e7a78e8016a266d01be4d48ef2",
+    "url": "https://app.notion.com/3cd0c4e7a78e8016a266d01be4d48ef2",
+    "name": "D3. Create guideline for non-mfg. and training",
+    "topic": "2. DP Enhancement",
+    "subTopic": "Fire RA",
+    "status": null,
+    "target": null,
+    "detail": null,
+    "reviewGoal": null,
+    "businessUnits": [],
+    "dateStart": "2027-02-17",
+    "dateEnd": null,
+    "quarters": [],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": null
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3cd0c4e7a78e8019a264ce84a894bb9d",
+    "url": "https://app.notion.com/3cd0c4e7a78e8019a264ce84a894bb9d",
+    "name": "A5. Quarterly update RA score of WH",
+    "topic": "1. Safety Enhancement",
+    "subTopic": "RA",
+    "status": null,
+    "target": null,
+    "detail": null,
+    "reviewGoal": null,
+    "businessUnits": [],
+    "dateStart": "2027-01-30",
+    "dateEnd": null,
+    "quarters": [],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": null
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3cd0c4e7a78e8020a984eca92920d985",
+    "url": "https://app.notion.com/3cd0c4e7a78e8020a984eca92920d985",
+    "name": "L2. Consult with software development",
+    "topic": "5. Analytics",
+    "subTopic": "Audit system",
+    "status": "🔵 On Track",
+    "target": null,
+    "detail": null,
+    "reviewGoal": null,
+    "businessUnits": [],
+    "dateStart": null,
+    "dateEnd": null,
+    "quarters": [],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": "- Update IT security documents and limitations"
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3cd0c4e7a78e8026ad05d7241f21cf7b",
+    "url": "https://app.notion.com/3cd0c4e7a78e8026ad05d7241f21cf7b",
+    "name": "A4. Request mitigation plan",
+    "topic": "1. Safety Enhancement",
+    "subTopic": "RA",
+    "status": null,
+    "target": null,
+    "detail": null,
+    "reviewGoal": null,
+    "businessUnits": [],
+    "dateStart": null,
+    "dateEnd": null,
+    "quarters": [],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": null
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3cd0c4e7a78e802d8ea2eceb76436d75",
+    "url": "https://app.notion.com/3cd0c4e7a78e802d8ea2eceb76436d75",
+    "name": "G2. Mobile equipment standard (Rev.01)",
+    "topic": "3. Mgmt System",
+    "subTopic": "Standard",
+    "status": "⚪ TBD",
+    "target": null,
+    "detail": null,
+    "reviewGoal": null,
+    "businessUnits": [],
+    "dateStart": null,
+    "dateEnd": null,
+    "quarters": [],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": null
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3cd0c4e7a78e80379829c60f57110d72",
+    "url": "https://app.notion.com/3cd0c4e7a78e80379829c60f57110d72",
+    "name": "B2. OTR tires",
+    "topic": "1. Safety Enhancement",
+    "subTopic": "Safety Recurrence Prevention",
+    "status": "🔵 On Track",
+    "target": null,
+    "detail": null,
+    "reviewGoal": null,
+    "businessUnits": [],
+    "dateStart": "2026-08-28",
+    "dateEnd": "2026-09-30",
+    "quarters": [],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": "Safety alert to BSANZ and related GC"
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": null
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3cd0c4e7a78e80449a10ffe126bf378d",
+    "url": "https://app.notion.com/3cd0c4e7a78e80449a10ffe126bf378d",
+    "name": "L4. Pilot use at MFG and Non-MFG",
+    "topic": "5. Analytics",
+    "subTopic": "Audit system",
+    "status": null,
+    "target": null,
+    "detail": null,
+    "reviewGoal": null,
+    "businessUnits": [],
+    "dateStart": null,
+    "dateEnd": null,
+    "quarters": [],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": null
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3cd0c4e7a78e8069987ed5319348487d",
+    "url": "https://app.notion.com/3cd0c4e7a78e8069987ed5319348487d",
+    "name": "D2. Feasibility confirm assessment result",
+    "topic": "2. DP Enhancement",
+    "subTopic": "Fire RA",
+    "status": null,
+    "target": null,
+    "detail": null,
+    "reviewGoal": null,
+    "businessUnits": [],
+    "dateStart": "2026-12-21",
+    "dateEnd": null,
+    "quarters": [],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": null
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3cd0c4e7a78e806b99b2ef93bc155c1f",
+    "url": "https://app.notion.com/3cd0c4e7a78e806b99b2ef93bc155c1f",
+    "name": "A2. Create WH RA BSAPIC guide tasks list",
+    "topic": "1. Safety Enhancement",
+    "subTopic": "RA",
+    "status": "🟢 Done",
+    "target": null,
+    "detail": null,
+    "reviewGoal": null,
+    "businessUnits": [],
+    "dateStart": "2026-04-01",
+    "dateEnd": "2026-06-30",
+    "quarters": [],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": null
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3cd0c4e7a78e8092a4d9f3dc468967da",
+    "url": "https://app.notion.com/3cd0c4e7a78e8092a4d9f3dc468967da",
+    "name": "N2. Q2 report",
+    "topic": "6. Global",
+    "subTopic": "Quarterly report",
+    "status": "🟢 Done",
+    "target": null,
+    "detail": null,
+    "reviewGoal": null,
+    "businessUnits": [],
+    "dateStart": "2026-06-17",
+    "dateEnd": null,
+    "quarters": [],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": null
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3cd0c4e7a78e8093b6cbea886b7b5daf",
+    "url": "https://app.notion.com/3cd0c4e7a78e8093b6cbea886b7b5daf",
+    "name": "H2. BTMV",
+    "topic": "3. Mgmt System",
+    "subTopic": "SMA WH",
+    "status": "🔵 On Track",
+    "target": null,
+    "detail": null,
+    "reviewGoal": null,
+    "businessUnits": [],
+    "dateStart": "2026-08-07",
+    "dateEnd": null,
+    "quarters": [],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": "Official wrap up (28 Aug)"
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": "Review and sent SMA report (1 Sep)"
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3cd0c4e7a78e809c992ef63e4aac4a7c",
+    "url": "https://app.notion.com/3cd0c4e7a78e809c992ef63e4aac4a7c",
+    "name": "E2. Retread DP risks BBRC",
+    "topic": "2. DP Enhancement",
+    "subTopic": "DP Recurrence Prevention",
+    "status": "🟢 Done",
+    "target": null,
+    "detail": null,
+    "reviewGoal": null,
+    "businessUnits": [],
+    "dateStart": null,
+    "dateEnd": null,
+    "quarters": [],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": null
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3cd0c4e7a78e80a39b1fcac25582ea9b",
+    "url": "https://app.notion.com/3cd0c4e7a78e80a39b1fcac25582ea9b",
+    "name": "F2. DP day support at TBSCN",
+    "topic": "2. DP Enhancement",
+    "subTopic": "DP day",
+    "status": null,
+    "target": null,
+    "detail": null,
+    "reviewGoal": null,
+    "businessUnits": [],
+    "dateStart": "2026-09-08",
+    "dateEnd": null,
+    "quarters": [],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": "Preparing for support (with DP team)"
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3cd0c4e7a78e80b9b82bf5b62ca13e96",
+    "url": "https://app.notion.com/3cd0c4e7a78e80b9b82bf5b62ca13e96",
+    "name": "L3. Development process",
+    "topic": "5. Analytics",
+    "subTopic": "Audit system",
+    "status": null,
+    "target": null,
+    "detail": null,
+    "reviewGoal": null,
+    "businessUnits": [],
+    "dateStart": null,
+    "dateEnd": null,
+    "quarters": [],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": null
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3cd0c4e7a78e80bb86f5c072e89e83fd",
+    "url": "https://app.notion.com/3cd0c4e7a78e80bb86f5c072e89e83fd",
+    "name": "N4. Q4 report",
+    "topic": "6. Global",
+    "subTopic": "Quarterly report",
+    "status": null,
+    "target": null,
+    "detail": null,
+    "reviewGoal": null,
+    "businessUnits": [],
+    "dateStart": "2027-01-20",
+    "dateEnd": null,
+    "quarters": [],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": null
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3cd0c4e7a78e80d8a313f4504b7dbd8a",
+    "url": "https://app.notion.com/3cd0c4e7a78e80d8a313f4504b7dbd8a",
+    "name": "N3. Q3 report",
+    "topic": "6. Global",
+    "subTopic": "Quarterly report",
+    "status": "🟢 Done",
+    "target": null,
+    "detail": null,
+    "reviewGoal": null,
+    "businessUnits": [],
+    "dateStart": "2026-09-16",
+    "dateEnd": null,
+    "quarters": [],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": null
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3cd0c4e7a78e80da851af554a6708d8d",
+    "url": "https://app.notion.com/3cd0c4e7a78e80da851af554a6708d8d",
+    "name": "C2. Trial AI detection for FL unsafe behavior of 1. 2 actions 2. 2 rack stacking",
+    "topic": "1. Safety Enhancement",
+    "subTopic": "AI forklift behavior detection",
+    "status": "🔵 On Track",
+    "target": null,
+    "detail": null,
+    "reviewGoal": null,
+    "businessUnits": [],
+    "dateStart": "2026-09-01",
+    "dateEnd": "2026-11-30",
+    "quarters": [],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": "- confirm trail period of Liv 24 (install 9 Sep)"
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3cd0c4e7a78e80fdae5eeaf9b237e03c",
+    "url": "https://app.notion.com/3cd0c4e7a78e80fdae5eeaf9b237e03c",
+    "name": "A3. Request each GC to input RA WH",
+    "topic": "1. Safety Enhancement",
+    "subTopic": "RA",
+    "status": "🔵 On Track",
+    "target": null,
+    "detail": null,
+    "reviewGoal": null,
+    "businessUnits": [],
+    "dateStart": "2026-06-09",
+    "dateEnd": "2026-09-30",
+    "quarters": [],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": "TBSC warehouse RA training"
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": "Update E/ Aug status of each warehouse assessment (1 Sep)"
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "3cd0c4e7a78e80ffb463d88a5ef890a1",
+    "url": "https://app.notion.com/3cd0c4e7a78e80ffb463d88a5ef890a1",
+    "name": "C3. Summary freasibility result",
+    "topic": "1. Safety Enhancement",
+    "subTopic": "AI forklift behavior detection",
+    "status": null,
+    "target": null,
+    "detail": null,
+    "reviewGoal": null,
+    "businessUnits": [],
+    "dateStart": "2026-12-16",
+    "dateEnd": null,
+    "quarters": [],
+    "weeks": [
+      {
+        "key": "W35",
+        "label": "W35: 24 - 28 Aug",
+        "note": null
+      },
+      {
+        "key": "W36",
+        "label": "W36: 31 Aug - 4 Sep",
+        "note": null
+      },
+      {
+        "key": "W37",
+        "label": "W37: 7 - 11 Sep",
+        "note": null
+      }
+    ]
+  }
+]

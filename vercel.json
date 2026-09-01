@@ -1,8 +1,4 @@
 {
-  "buildCommand": "npx quartz build",
-  "outputDirectory": "public",
-  "installCommand": "npm install",
-  "framework": null,
-  "cleanUrls": true,
-  "trailingSlash": false
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs"
 }
