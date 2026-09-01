@@ -7,7 +7,9 @@ const TABS = [
   { href: "/", label: "Overview" },
   { href: "/weekly", label: "Weekly" },
   { href: "/board", label: "Board" },
+  { href: "/timeline", label: "Timeline" },
   { href: "/quarters", label: "Quarters" },
+  { href: "/updates", label: "Updates" },
 ]
 
 export function Nav() {

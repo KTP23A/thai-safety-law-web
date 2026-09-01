@@ -11,7 +11,12 @@ four views that are awkward to get inside Notion itself:
 | `/`         | KPI tiles, status mix, everything delayed or at risk, breakdowns by topic and BU, and the most recent week's updates |
 | `/weekly`   | The weekly table — one column per `W…` property, grouped by topic                    |
 | `/board`    | Kanban grouped by overall status                                                    |
+| `/timeline` | Every dated task on one month scale, coloured by status, with a today marker         |
 | `/quarters` | Q1–Q4 commitments with each quarter's own plan and status                            |
+| `/updates`  | Entries from the linked **📈 Progress Log 2026** database, newest first               |
+
+`/weekly`, `/board` and `/timeline` share a filter row: topic, business unit,
+status, and free-text search across task name, sub topic, target and detail.
 
 Every task title links back to its Notion page, so the edit path is one click away.
 
@@ -41,6 +46,7 @@ app never boots into a blank error page.
 | `NOTION_TOKEN`          | yes      | Integration secret. Without it the app serves the bundled snapshot.      |
 | `NOTION_DATABASE_ID`    | no       | Defaults to the IIP26 tracker. Set it to point at a different database.  |
 | `NOTION_DATA_SOURCE_ID` | no       | Skips one lookup call per cache miss.                                    |
+| `NOTION_PROGRESS_DATABASE_ID` | no | Defaults to the 📈 Progress Log 2026 database behind `/updates`.       |
 | `REVALIDATE_SECONDS`    | no       | How long a query is reused before Notion is hit again. Default `300`.    |
 
 ## Deploying
@@ -70,7 +76,13 @@ deliberately tolerant:
   rows don't drag the number down without meaning to.
 - **Failures degrade instead of crashing.** If Notion errors, the last-resort
   snapshot renders behind a red banner naming the actual error, and the failure
-  is only cached for 15 seconds so it recovers on its own.
+  is only cached for 15 seconds so it recovers on its own. The progress log is
+  fetched separately and failing there leaves the rest of the dashboard intact.
+- **Status colours are checked, not eyeballed.** Delayed and At Risk originally
+  sat ΔE 10.9 apart in normal vision and 5.4 under deuteranopia — effectively the
+  same colour where they meet in a stacked bar. They were re-stepped to pass, and
+  stacked segments carry a 2px surface gap so adjacent fills stay separable
+  without relying on hue.
 
 ## Checks
 

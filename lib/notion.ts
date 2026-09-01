@@ -12,6 +12,8 @@ const DATA_SOURCE_VERSION = "2025-09-03"
 const LEGACY_VERSION = "2022-06-28"
 
 export const DEFAULT_DATABASE_ID = "7538e2f50349425ab3e2173a81c8fd41"
+/** The "📈 Progress Log 2026" database that the tracker's relation points at. */
+export const DEFAULT_PROGRESS_DATABASE_ID = "7a00bb8779bb46339838976afb4e5015"
 
 export type StatusTone = "done" | "ontrack" | "delayed" | "atrisk" | "tbd" | "none"
 
@@ -48,9 +50,25 @@ export type Task = {
 
 export type WeekColumn = { key: string; label: string; number: number }
 
+/** A row of the "📈 Progress Log 2026" database. */
+export type ProgressUpdate = {
+  id: string
+  url: string
+  title: string
+  date: string | null
+  period: string | null
+  status: string | null
+  progress: string | null
+  nextStep: string | null
+  reportToManagement: boolean
+  /** Normalized ids of the tracker tasks this update is filed against. */
+  taskIds: string[]
+}
+
 export type Tracker = {
   tasks: Task[]
   weekColumns: WeekColumn[]
+  updates: ProgressUpdate[]
   /** "notion" when served live; "sample" when the bundled snapshot was used. */
   source: "notion" | "sample"
   fetchedAt: string
@@ -77,6 +95,17 @@ export class NotionError extends Error {
  */
 function normalizeKey(name: string): string {
   return name.trim().toLowerCase().replace(/\s+/g, " ")
+}
+
+/** Notion returns page ids dashed in some places and bare in others. */
+export function normalizeId(id: string): string {
+  return id.replace(/-/g, "").toLowerCase()
+}
+
+function readRelationIds(property: unknown): string[] {
+  const prop = property as { type?: string; relation?: { id?: string }[] }
+  if (prop?.type !== "relation" || !Array.isArray(prop.relation)) return []
+  return prop.relation.map((item) => item?.id).filter((id): id is string => Boolean(id)).map(normalizeId)
 }
 
 type PropertyBag = Record<string, unknown>
@@ -277,6 +306,49 @@ function toTask(page: { id: string; url?: string; properties?: PropertyBag }): T
   }
 }
 
+function toProgressUpdate(page: { id: string; url?: string; properties?: PropertyBag }): ProgressUpdate {
+  const properties = page.properties ?? {}
+  const byKey = new Map<string, unknown>()
+  for (const [name, value] of Object.entries(properties)) byKey.set(normalizeKey(name), value)
+
+  const get = (name: string) => byKey.get(normalizeKey(name))
+  const text = (name: string) => propertyToText(get(name))
+
+  let title = text("Update")
+  if (!title) {
+    for (const value of byKey.values()) {
+      if ((value as { type?: string })?.type === "title") {
+        title = propertyToText(value)
+        if (title) break
+      }
+    }
+  }
+
+  const checkbox = get("Report to Mgmt") as { type?: string; checkbox?: boolean } | undefined
+  const date = readDate(get("Date"))
+
+  return {
+    id: page.id,
+    url: page.url ?? `https://www.notion.so/${normalizeId(page.id)}`,
+    title: title ?? "Untitled update",
+    date: date.start,
+    period: text("Period"),
+    status: text("Status"),
+    progress: text("Progress / Result"),
+    nextStep: text("Next Step"),
+    reportToManagement: checkbox?.checkbox === true,
+    taskIds: readRelationIds(get("Task")),
+  }
+}
+
+/** Progress updates filed against a given task, newest first. */
+export function updatesForTask(updates: ProgressUpdate[], taskId: string): ProgressUpdate[] {
+  const key = normalizeId(taskId)
+  return updates
+    .filter((update) => update.taskIds.includes(key))
+    .sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""))
+}
+
 /** Union of every week column present on any task, newest last. */
 export function collectWeekColumns(tasks: Task[]): WeekColumn[] {
   const columns = new Map<string, WeekColumn>()
@@ -388,6 +460,22 @@ async function loadSample(): Promise<Task[]> {
   return sample as unknown as Task[]
 }
 
+/**
+ * The progress log lives in its own database, so a failure there must not take
+ * the tracker down with it — an empty log renders as "no updates yet".
+ */
+async function fetchProgressUpdates(token: string): Promise<ProgressUpdate[]> {
+  const databaseId = process.env.NOTION_PROGRESS_DATABASE_ID || DEFAULT_PROGRESS_DATABASE_ID
+  try {
+    const pages = await fetchFromNotion(token, databaseId)
+    return pages
+      .map(toProgressUpdate)
+      .sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""))
+  } catch {
+    return []
+  }
+}
+
 async function loadTracker(): Promise<Tracker> {
   const token = process.env.NOTION_TOKEN
   const databaseId = process.env.NOTION_DATABASE_ID || DEFAULT_DATABASE_ID
@@ -398,6 +486,7 @@ async function loadTracker(): Promise<Tracker> {
     return {
       tasks,
       weekColumns: collectWeekColumns(tasks),
+      updates: [],
       source: "sample",
       fetchedAt: new Date().toISOString(),
       error,
@@ -407,11 +496,15 @@ async function loadTracker(): Promise<Tracker> {
   if (!token) return fromSample(null)
 
   try {
-    const pages = await fetchFromNotion(token, databaseId, dataSourceId)
+    const [pages, updates] = await Promise.all([
+      fetchFromNotion(token, databaseId, dataSourceId),
+      fetchProgressUpdates(token),
+    ])
     const tasks = pages.map(toTask)
     return {
       tasks,
       weekColumns: collectWeekColumns(tasks),
+      updates,
       source: "notion",
       fetchedAt: new Date().toISOString(),
       error: null,
